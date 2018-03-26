@@ -1,7 +1,21 @@
 apiVersion: v1
 entries:
   myapp:
-  - created: 2017-06-08T23:11:27.063631499+07:00
+  - created: 2018-03-26T09:21:13.710458186+02:00
+    description: A Helm chart template for Kubernetes charts repository
+    digest: 31850466d89c6a9714200d1cc91110b4a713b82feb4acac9612ab08ff9bc005f
+    engine: gotpl
+    home: https://k8s.community/
+    maintainers:
+    - email: k8s.community@gmail.com
+      name: Kubernetes Community
+    name: myapp
+    sources:
+    - https://github.com/cleardevice/myapp
+    urls:
+    - https://cleardevice.github.io/mycharts/myapp-0.0.8.tgz
+    version: 0.0.8
+  - created: 2018-03-26T09:21:13.710063271+02:00
     description: A Helm chart template for Kubernetes charts repository
     digest: 8bb4cab1093d70087d7300aa83718a2fa524aef037c1fc2cfd69468b2be324d4
     engine: gotpl
@@ -13,6 +27,6 @@ entries:
     sources:
     - https://github.com/k8s-community/myapp
     urls:
-    - https://k8s-community.github.io/mycharts/myapp-0.0.7.tgz
+    - https://cleardevice.github.io/mycharts/myapp-0.0.7.tgz
     version: 0.0.7
-generated: 2017-06-08T23:11:27.06318282+07:00
+generated: 2018-03-26T09:21:13.709400706+02:00
